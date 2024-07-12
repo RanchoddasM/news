@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="newcss.css">
     <title>News</title>
     <script>
-        // Function to alternate tab title
+        
         function blinkTabTitle(title1, title2, interval) {
             let showingTitle1 = true;
             setInterval(() => {
@@ -15,12 +15,10 @@
             }, interval);
         }
 
-        // Start blinking the title after receiving a notification
         function receiveNotification() {
             blinkTabTitle("NEWS", "TNCHS", 1000);
         }
 
-        // Simulating the reception of a notification after 5 seconds
         setTimeout(receiveNotification, 5000);
     </script>
 </head>
@@ -30,7 +28,7 @@
     </header>
     <main>
         <section id="news-articles">
-            <!-- News articles will be loaded here -->
+            
         </section>
     </main>
     <footer>
